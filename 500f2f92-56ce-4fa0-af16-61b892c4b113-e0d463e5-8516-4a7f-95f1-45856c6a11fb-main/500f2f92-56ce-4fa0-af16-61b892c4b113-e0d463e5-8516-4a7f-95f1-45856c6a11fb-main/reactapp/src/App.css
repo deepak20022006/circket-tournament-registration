@@ -1,0 +1,21 @@
+
+/* minimal global layout */
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 5px;
+  background: #fff;
+}
